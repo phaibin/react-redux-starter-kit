@@ -4,13 +4,9 @@ import './HomeView.scss'
 import DocumentTitle from 'react-document-title'
 
 export const HomeView = () => (
-  <DocumentTitle title='Home'>
+  <DocumentTitle title='404'>
     <div>
-      <h4>Welcome!</h4>
-      <img
-        alt='This is a duck, because Redux!'
-        className='duck'
-        src={DuckImage} />
+      <h4>404!</h4>
     </div>
   </DocumentTitle>
 )

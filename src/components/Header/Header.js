@@ -12,6 +12,14 @@ export const Header = () => (
     <Link to='/counter' activeClassName='route--active'>
       Counter
     </Link>
+    {' · '}
+    <Link to='/zen' activeClassName='route--active'>
+      Zen
+    </Link>
+    {' · '}
+    <Link to='/todomvcredux' activeClassName='route--active'>
+      TodoMVC Redux
+    </Link>
   </div>
 )
 
